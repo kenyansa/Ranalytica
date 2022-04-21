@@ -10,6 +10,38 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <!-- beginning of the Navabar -->
+     <nav class="init-nav navbar navbar-dark" aria-label="First navbar example">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">R-Analytica</a>
+      <!-- start of the offcavas button -->
+        <button class="bg-transparent menu-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+       <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Rental Space Options</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                Renting Options
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="#">Apartments for Rent</a></li>
+                <li><a class="dropdown-item" href="#">Homes for Rent</a></li>
+                <li><a class="dropdown-item" href="#">Condos for Rent</a></li>
+                <li><a class="dropdown-item" href="#">Offices for Rent</a></li>
+            </ul>
+            </div>
+        </div>
+        </div>
+<!-- end of "offcavas button" -->
+    </div>
+  </nav>
+  <!-- End of the navbar -->
     
 </body>
 </html>
