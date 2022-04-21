@@ -23,3 +23,13 @@
 .rent2-img{
     border-radius: 1em;
 }
+.title{
+    text-align: center;
+}
+.form-floating{
+    width:50%;
+    align-items: center;
+    position:relative;
+    left:50%;
+    transform:translate(-50%, 50%);
+}
