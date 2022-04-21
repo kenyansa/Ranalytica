@@ -1,9 +1,9 @@
 .init-nav{
     background-color: rgb(11, 140, 220);
 }
-/* .menu-btn{
+.menu-btn{
     border: none;
-} */
+}
 .hero{
     background-image: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,0.7)), url("./housesR.jpg");
     background-repeat: no-repeat;
