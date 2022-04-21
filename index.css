@@ -33,3 +33,8 @@
     left:50%;
     transform:translate(-50%, 50%);
 }
+/* start of the footer section */
+#footer{
+  text-align: center;
+  position:relative;
+}
