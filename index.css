@@ -37,4 +37,9 @@
 #footer{
   text-align: center;
   position:relative;
+  width: 100%;
+}
+#contactB{
+    align-items: center;
+    position: relative;
 }
