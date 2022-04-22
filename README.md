@@ -3,7 +3,7 @@ An app that allows users to quickly find available rental spaces for residential
 ### version 1.0.0
 This app helps you obtain rental data very quickly and saves you the time of gambling with unreliable dealers.
 ## Screeshots
-![Description part of the web-app](ranalytica.png)
+![Description part of the web-app](./ranalytica.png)
 
 ## Contributors
 The project was developed by Justine Kenyansa alone, but in the future, it may incorporate the work of other developers to make it robust.
