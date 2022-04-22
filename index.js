@@ -6,7 +6,16 @@ function rentData() {
   var bedroomsValue = document.getElementById("bedrooms").value;
   var bathroomsValue = document.getElementById("bathrooms").value;
   var compCountValue = document.getElementById("compCount").value;
-
+console.log(
+  "--------------",
+  addressValue,
+  propertyTypeValue,
+  squareFootageValue,
+  rentAmountValue,
+  bedroomsValue,
+  bathroomsValue,
+  compCountValue
+);
   var myHeaders = new Headers();
   myHeaders.append(
     "X-RapidAPI-Host",
