@@ -1,13 +1,12 @@
-var addressValue = document.getElementById("address").value;
-var propertyTypeValue = document.getElementById("propertyType").value;
-var squareFootageValue = document.getElementById("squareFootage").value;
-var rentAmountValue = document.getElementById("rentAmount").value;
-var bedroomsValue = document.getElementById("bedrooms").value;
-var bathroomsValue = document.getElementById("bathrooms").value;
-var compCountValue = document.getElementById("compCount").value;
-
-
 function rentData() {
+  var addressValue = document.getElementById("address").value;
+  var propertyTypeValue = document.getElementById("propertyType").value;
+  var squareFootageValue = document.getElementById("squareFootage").value;
+  var rentAmountValue = document.getElementById("rentAmount").value;
+  var bedroomsValue = document.getElementById("bedrooms").value;
+  var bathroomsValue = document.getElementById("bathrooms").value;
+  var compCountValue = document.getElementById("compCount").value;
+
   var myHeaders = new Headers();
   myHeaders.append(
     "X-RapidAPI-Host",
